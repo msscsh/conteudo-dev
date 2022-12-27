@@ -1,0 +1,6 @@
+
+Receita para:
+Identificar um componente de backend de uma determinada funcionalidade presente em uma tela de um sistema web.
+
+    #1 Execute a funcionalidade e utilizando algum mecanismo de rede, confirme para qual local está sendo direcionada a requisição web
+    #2 Com as informações, identifique o componente do backend responsável por receber esta requisição
