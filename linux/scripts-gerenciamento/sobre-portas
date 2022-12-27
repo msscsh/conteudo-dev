@@ -1,0 +1,11 @@
+
+Receita para:
+Identificar em uma determinada porta com status LISTEN, qual aplicação faz uso dela.
+
+    #1 Identificar o processo de uma porta alvo, com o comando abaixo. (Coluna PID)
+    sudo lsof -i -P -n | grep LISTEN
+
+    #2 Identificar aplicação que faz uso deste processo
+    sudo ps -ef | grep 'PID_AQUI'
+
+
